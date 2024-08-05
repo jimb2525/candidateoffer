@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>KB</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 13:32:43</sys_created_on>
+        <sys_id>2ba0764e493d0510124b92f24eaa709e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB</sys_name>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name>sys_ux_screen_type_2ba0764e493d0510124b92f24eaa709e</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 13:32:43</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=2ba0764e493d0510124b92f24eaa709e"/>
+</record_update>

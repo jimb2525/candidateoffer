@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2022-03-09 21:39:36</change_date>
+        <changed_by display_value="James Belote">031ce8db87f3b4d0e80b40c5cebb3523</changed_by>
+        <content display_value="Grant full App Engine Studio access to other users">1d03cd3c0f782010310be3d1df767ef8</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-03-09 21:39:36</sys_created_on>
+        <sys_id>79ffed4f870ec190e80b40c5cebb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2022-03-09 21:39:36</sys_name>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name>gsw_change_log_79ffed4f870ec190e80b40c5cebb3595</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-03-09 21:39:36</sys_updated_on>
+        <type>4</type>
+    </gsw_change_log>
+</record_update>

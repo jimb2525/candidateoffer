@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="19cca606873d0510532b43f7cebb3501" extends="task" label="Offer" max_length="40" name="x_snc_candidate_0_offer" text_index="true" type="collection">
+        <element label="Candidate" max_length="32" name="candidate" reference="sys_user" type="reference"/>
+        <element label="Hiring Manager" max_length="32" name="hiring_manager" reference="sys_user" type="reference"/>
+        <element label="Job Title" max_length="40" name="job_title" type="string"/>
+        <element label="Pay Rate" max_length="40" name="pay_rate" type="string"/>
+        <element label="Recruiter" max_length="32" name="recruiter" reference="sys_user" type="reference"/>
+    </element>
+</database>

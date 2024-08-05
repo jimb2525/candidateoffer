@@ -1,0 +1,1994 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>true</ih_action>
+        <internal_name>generate_offer_letter</internal_name>
+        <label_cache>[{"name":"{{action.offer}}","label":"action➛Offer","type":"action","ref":"","reference_display":"Offer","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1e071f12-b206-4e48-b1d9-b3bf6bd59204].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[8ed3b6c8-3b5d-44ce-9312-8a4e241ad706].__step_status__.code}}","label":"step➛JSON Parser step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>64dd97ce87714510532b43f7cebb3593</master_snapshot>
+        <name>Generate Offer Letter</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:44:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3b8cdb0e87714510532b43f7cebb35c8</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Generate Offer Letter</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_3b8cdb0e87714510532b43f7cebb35c8</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=3b8cdb0e87714510532b43f7cebb35c8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3b8cdb0e87714510532b43f7cebb35c8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>3b8cdb0e87714510532b43f7cebb35c8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:46:35</sys_created_on>
+        <sys_id>9b0d9b4e87714510532b43f7cebb359a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:47:47</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD130d9b4e0371451034ebd7e7fdeb237f":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD130d9b4e0371451034ebd7e7fdeb237f.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d851b1ca-8677-4dc9-aab4-dc982c6645ec\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD130d9b4e0371451034ebd7e7fdeb237f\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">d70d9b4e87714510532b43f7cebb3582</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>3b8cdb0e87714510532b43f7cebb35c8</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:46:35</sys_created_on>
+        <sys_id>d70d9b4e87714510532b43f7cebb359a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:46:35</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">570d9b4e87714510532b43f7cebb358b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3b8cdb0e87714510532b43f7cebb35c8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>success</field>
+        <id>3b8cdb0e87714510532b43f7cebb35c8</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:48:16</sys_created_on>
+        <sys_id>007dd78e87714510532b43f7cebb35da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:48:16</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3b8cdb0e87714510532b43f7cebb35c8</table>
+        <value>{{step[8ed3b6c8-3b5d-44ce-9312-8a4e241ad706].__step_status__.code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>3b8cdb0e87714510532b43f7cebb35c8</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:46:35</sys_created_on>
+        <sys_id>570d9b4e87714510532b43f7cebb359a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:46:35</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3b8cdb0e87714510532b43f7cebb35c8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>3b8cdb0e87714510532b43f7cebb35c8</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:46:35</sys_created_on>
+        <sys_id>930d9b4e87714510532b43f7cebb359a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:46:35</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3b8cdb0e87714510532b43f7cebb35c8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=3b8cdb0e87714510532b43f7cebb35c8^sys_idNOT IN7c5dd38e87714510532b43f7cebb350f,c30d9b4e87714510532b43f7cebb3555"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Generate Offer Letter">3b8cdb0e87714510532b43f7cebb35c8</action>
+        <cid>8ed3b6c8-3b5d-44ce-9312-8a4e241ad706</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:47:47</sys_created_on>
+        <sys_id>7c5dd38e87714510532b43f7cebb350f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:47:47</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7c5dd38e87714510532b43f7cebb350f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7c5dd38e87714510532b43f7cebb350f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:47:47</sys_created_on>
+        <sys_id>345dd38e87714510532b43f7cebb3521</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:47:47</sys_updated_on>
+        <value>structured</value>
+        <variable display_value="Payload view">95d4280787523300f917e55936cb0bfe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7c5dd38e87714510532b43f7cebb350f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:47:47</sys_created_on>
+        <sys_id>705dd38e87714510532b43f7cebb3521</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:47:47</sys_updated_on>
+        <value>{"avgTotalVolume":2067562,"calculationPrice":"tops","change":-3.51,"changePercent":-0.00631,"close":null,"closeSource":"official","closeTime":null,"companyName":"ServiceNow Inc","currency":"USD","delayedPrice":null,"delayedPriceTime":null,"extendedChange":null,"extendedChangePercent":null,"extendedPrice":null,"extendedPriceTime":null,"high":null,"highSource":"15 minute delayed price","highTime":1645547539684,"iexAskPrice":0,"iexAskSize":0,"iexBidPrice":0,"iexBidSize":0,"iexClose":552.5,"iexCloseTime":1645548397030,"iexLastUpdated":1645548397030,"iexMarketPercent":0.059013539539967956,"iexOpen":544.98,"iexOpenTime":1645540203069,"iexRealtimePrice":552.5,"iexRealtimeSize":16,"iexVolume":20407,"lastTradeTime":1645548397030,"latestPrice":552.5,"latestSource":"IEX real time price","latestTime":"11:46:37 AM","latestUpdate":1645548397030,"latestVolume":null,"low":null,"lowSource":"15 minute delayed price","lowTime":1645540200872,"marketCap":110500000000,"oddLotDelayedPrice":null,"oddLotDelayedPriceTime":null,"open":null,"openTime":null,"openSource":"official","peRatio":244.47,"previousClose":556.01,"previousVolume":1276726,"primaryExchange":"NEW YORK STOCK EXCHANGE INC.","symbol":"NOW","volume":null,"week52High":707.6,"week52Low":448.27,"ytdChange":-0.14973715410331076,"isUSMarketOpen":true}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7c5dd38e87714510532b43f7cebb350f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:47:47</sys_created_on>
+        <sys_id>bc5dd38e87714510532b43f7cebb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:47:47</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"avgTotalVolume","children":[],"type":"string","jpath":"$.avgTotalVolume","previewValue":"2067562"},{"name":"calculationPrice","children":[],"type":"string","jpath":"$.calculationPrice","previewValue":"tops"},{"name":"change","children":[],"type":"string","jpath":"$.change","previewValue":"-3.51"},{"name":"changePercent","children":[],"type":"string","jpath":"$.changePercent","previewValue":"-0.00631"},{"name":"close","children":[],"type":"string","jpath":"$.close","previewValue":""},{"name":"closeSource","children":[],"type":"string","jpath":"$.closeSource","previewValue":"official"},{"name":"closeTime","children":[],"type":"string","jpath":"$.closeTime","previewValue":""},{"name":"companyName","children":[],"type":"string","jpath":"$.companyName","previewValue":"ServiceNow Inc"},{"name":"currency","children":[],"type":"string","jpath":"$.currency","previewValue":"USD"},{"name":"delayedPrice","children":[],"type":"string","jpath":"$.delayedPrice","previewValue":""},{"name":"delayedPriceTime","children":[],"type":"string","jpath":"$.delayedPriceTime","previewValue":""},{"name":"extendedChange","children":[],"type":"string","jpath":"$.extendedChange","previewValue":""},{"name":"extendedChangePercent","children":[],"type":"string","jpath":"$.extendedChangePercent","previewValue":""},{"name":"extendedPrice","children":[],"type":"string","jpath":"$.extendedPrice","previewValue":""},{"name":"extendedPriceTime","children":[],"type":"string","jpath":"$.extendedPriceTime","previewValue":""},{"name":"high","children":[],"type":"string","jpath":"$.high","previewValue":""},{"name":"highSource","children":[],"type":"string","jpath":"$.highSource","previewValue":"15 minute delayed price"},{"name":"highTime","children":[],"type":"string","jpath":"$.highTime","previewValue":"1645547539684"},{"name":"iexAskPrice","children":[],"type":"string","jpath":"$.iexAskPrice","previewValue":"0"},{"name":"iexAskSize","children":[],"type":"string","jpath":"$.iexAskSize","previewValue":"0"},{"name":"iexBidPrice","children":[],"type":"string","jpath":"$.iexBidPrice","previewValue":"0"},{"name":"iexBidSize","children":[],"type":"string","jpath":"$.iexBidSize","previewValue":"0"},{"name":"iexClose","children":[],"type":"string","jpath":"$.iexClose","previewValue":"552.5"},{"name":"iexCloseTime","children":[],"type":"string","jpath":"$.iexCloseTime","previewValue":"1645548397030"},{"name":"iexLastUpdated","children":[],"type":"string","jpath":"$.iexLastUpdated","previewValue":"1645548397030"},{"name":"iexMarketPercent","children":[],"type":"string","jpath":"$.iexMarketPercent","previewValue":"0.059013539539967956"},{"name":"iexOpen","children":[],"type":"string","jpath":"$.iexOpen","previewValue":"544.98"},{"name":"iexOpenTime","children":[],"type":"string","jpath":"$.iexOpenTime","previewValue":"1645540203069"},{"name":"iexRealtimePrice","children":[],"type":"string","jpath":"$.iexRealtimePrice","previewValue":"552.5"},{"name":"iexRealtimeSize","children":[],"type":"string","jpath":"$.iexRealtimeSize","previewValue":"16"},{"name":"iexVolume","children":[],"type":"string","jpath":"$.iexVolume","previewValue":"20407"},{"name":"lastTradeTime","children":[],"type":"string","jpath":"$.lastTradeTime","previewValue":"1645548397030"},{"name":"latestPrice","children":[],"type":"string","jpath":"$.latestPrice","previewValue":"552.5"},{"name":"latestSource","children":[],"type":"string","jpath":"$.latestSource","previewValue":"IEX real time price"},{"name":"latestTime","children":[],"type":"string","jpath":"$.latestTime","previewValue":"11:46:37 AM"},{"name":"latestUpdate","children":[],"type":"string","jpath":"$.latestUpdate","previewValue":"1645548397030"},{"name":"latestVolume","children":[],"type":"string","jpath":"$.latestVolume","previewValue":""},{"name":"low","children":[],"type":"string","jpath":"$.low","previewValue":""},{"name":"lowSource","children":[],"type":"string","jpath":"$.lowSource","previewValue":"15 minute delayed price"},{"name":"lowTime","children":[],"type":"string","jpath":"$.lowTime","previewValue":"1645540200872"},{"name":"marketCap","children":[],"type":"string","jpath":"$.marketCap","previewValue":"110500000000"},{"name":"oddLotDelayedPrice","children":[],"type":"string","jpath":"$.oddLotDelayedPrice","previewValue":""},{"name":"oddLotDelayedPriceTime","children":[],"type":"string","jpath":"$.oddLotDelayedPriceTime","previewValue":""},{"name":"open","children":[],"type":"string","jpath":"$.open","previewValue":""},{"name":"openTime","children":[],"type":"string","jpath":"$.openTime","previewValue":""},{"name":"openSource","children":[],"type":"string","jpath":"$.openSource","previewValue":"official"},{"name":"peRatio","children":[],"type":"string","jpath":"$.peRatio","previewValue":"244.47"},{"name":"previousClose","children":[],"type":"string","jpath":"$.previousClose","previewValue":"556.01"},{"name":"previousVolume","children":[],"type":"string","jpath":"$.previousVolume","previewValue":"1276726"},{"name":"primaryExchange","children":[],"type":"string","jpath":"$.primaryExchange","previewValue":"NEW YORK STOCK EXCHANGE INC."},{"name":"symbol","children":[],"type":"string","jpath":"$.symbol","previewValue":"NOW"},{"name":"volume","children":[],"type":"string","jpath":"$.volume","previewValue":""},{"name":"week52High","children":[],"type":"string","jpath":"$.week52High","previewValue":"707.6"},{"name":"week52Low","children":[],"type":"string","jpath":"$.week52Low","previewValue":"448.27"},{"name":"ytdChange","children":[],"type":"string","jpath":"$.ytdChange","previewValue":"-0.14973715410331076"},{"name":"isUSMarketOpen","children":[],"type":"string","jpath":"$.isUSMarketOpen","previewValue":"true"}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_7c5dd38e87714510532b43f7cebb350f^id=7c5dd38e87714510532b43f7cebb350f"/>
+    <sys_element_mapping action="delete_multiple" query="id=7c5dd38e87714510532b43f7cebb350f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload_view</field>
+        <id>7c5dd38e87714510532b43f7cebb350f</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:47:47</sys_created_on>
+        <sys_id>785dd38e87714510532b43f7cebb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:47:47</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>7c5dd38e87714510532b43f7cebb350f</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:47:47</sys_created_on>
+        <sys_id>3c5dd38e87714510532b43f7cebb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:47:47</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>7c5dd38e87714510532b43f7cebb350f</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:47:47</sys_created_on>
+        <sys_id>f05dd38e87714510532b43f7cebb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:47:47</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[1e071f12-b206-4e48-b1d9-b3bf6bd59204].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>7c5dd38e87714510532b43f7cebb350f</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:47:47</sys_created_on>
+        <sys_id>b45dd38e87714510532b43f7cebb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:47:47</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7c5dd38e87714510532b43f7cebb350f"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7c5dd38e87714510532b43f7cebb350f^sys_idNOT INf05dd38e87714510532b43f7cebb3516"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDb85dd38ebe7145101706b31d89cc4113</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>ea5c6ac2873d0510532b43f7cebb359e</scope_name>
+        <serialized_content>{"FlowDesigner:FDb85dd38ebe7145101706b31d89cc4113":{"symbol":"String","symbol.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"symbol\",\"mandatory\":\"false\",\"order\":\"51\",\"max_length\":\"0\",\"uiUniqueId\":\"8ce25369-bc76-466a-a46b-9536663c38d2\"}"},"highTime":"String","highTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"highTime\",\"mandatory\":\"false\",\"order\":\"18\",\"max_length\":\"0\",\"uiUniqueId\":\"c92ac47d-dcb9-45ef-8633-c5e459b5f577\"}"},"avgTotalVolume":"String","avgTotalVolume.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"avgTotalVolume\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"a47a2646-95f6-4ce7-9ed0-6c172194df70\"}"},"companyName":"String","companyName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"companyName\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\",\"uiUniqueId\":\"b61ed81f-15ef-475f-b07c-aa02a632b7e8\"}"},"openSource":"String","openSource.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"openSource\",\"mandatory\":\"false\",\"order\":\"46\",\"max_length\":\"0\",\"uiUniqueId\":\"3e35a4e4-b3ef-4f42-99b1-fc4b34e3c8be\"}"},"delayedPrice":"String","delayedPrice.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"delayedPrice\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\",\"uiUniqueId\":\"e3c555e9-596e-46f0-9f86-7bd578cc65bd\"}"},"iexMarketPercent":"String","iexMarketPercent.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexMarketPercent\",\"mandatory\":\"false\",\"order\":\"26\",\"max_length\":\"0\",\"uiUniqueId\":\"63d0b332-f166-48fd-95e0-c0773dbcd61e\"}"},"primaryExchange":"String","primaryExchange.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"primaryExchange\",\"mandatory\":\"false\",\"order\":\"50\",\"max_length\":\"0\",\"uiUniqueId\":\"747d6824-3dfe-4fb5-a053-52eed128bbf9\"}"},"latestUpdate":"String","latestUpdate.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"latestUpdate\",\"mandatory\":\"false\",\"order\":\"36\",\"max_length\":\"0\",\"uiUniqueId\":\"761092a5-4c74-4f60-a07c-df57ff7b9046\"}"},"high":"String","high.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"high\",\"mandatory\":\"false\",\"order\":\"16\",\"max_length\":\"0\",\"uiUniqueId\":\"4bc58a8b-7571-43a5-9bfd-323ce990ec49\"}"},"iexOpenTime":"String","iexOpenTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexOpenTime\",\"mandatory\":\"false\",\"order\":\"28\",\"max_length\":\"0\",\"uiUniqueId\":\"4afaad9d-cd61-4945-94eb-098df4489702\"}"},"delayedPriceTime":"String","delayedPriceTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"delayedPriceTime\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\",\"uiUniqueId\":\"9f534280-ad0e-4b52-9c92-a1e734e36e80\"}"},"extendedPrice":"String","extendedPrice.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"extendedPrice\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\",\"uiUniqueId\":\"4212c7d7-c536-45be-b17f-1c9915031a8d\"}"},"week52Low":"String","week52Low.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"week52Low\",\"mandatory\":\"false\",\"order\":\"54\",\"max_length\":\"0\",\"uiUniqueId\":\"84126249-b9ba-4aa3-b738-b4e31856631c\"}"},"highSource":"String","highSource.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"highSource\",\"mandatory\":\"false\",\"order\":\"17\",\"max_length\":\"0\",\"uiUniqueId\":\"3bafbcfa-b84f-4469-babb-b93d45203464\"}"},"latestPrice":"String","latestPrice.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"latestPrice\",\"mandatory\":\"false\",\"order\":\"33\",\"max_length\":\"0\",\"uiUniqueId\":\"f4738c88-3c74-4c85-8492-4e666b24b0f6\"}"},"marketCap":"String","marketCap.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"marketCap\",\"mandatory\":\"false\",\"order\":\"41\",\"max_length\":\"0\",\"uiUniqueId\":\"42928485-5db9-4ebd-ad94-fcc979c92bb4\"}"},"iexClose":"String","iexClose.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexClose\",\"mandatory\":\"false\",\"order\":\"23\",\"max_length\":\"0\",\"uiUniqueId\":\"da8389ec-bf66-4bf2-8a94-0a80c1c6cd51\"}"},"volume":"String","volume.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"volume\",\"mandatory\":\"false\",\"order\":\"52\",\"max_length\":\"0\",\"uiUniqueId\":\"fed54378-159e-400e-a704-f342a6df9e44\"}"},"ytdChange":"String","ytdChange.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ytdChange\",\"mandatory\":\"false\",\"order\":\"55\",\"max_length\":\"0\",\"uiUniqueId\":\"f94ed529-8319-4e79-b1a3-a2c0231f318f\"}"},"lastTradeTime":"String","lastTradeTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"lastTradeTime\",\"mandatory\":\"false\",\"order\":\"32\",\"max_length\":\"0\",\"uiUniqueId\":\"84168f6b-d749-4fd7-9eae-b8d538578e20\"}"},"closeSource":"String","closeSource.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"closeSource\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"c2294f21-f255-48aa-9c59-73fbecf9c3ea\"}"},"extendedChange":"String","extendedChange.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"extendedChange\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\",\"uiUniqueId\":\"592ea699-315b-4d05-a062-3282fbbdf54f\"}"},"iexRealtimePrice":"String","iexRealtimePrice.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexRealtimePrice\",\"mandatory\":\"false\",\"order\":\"29\",\"max_length\":\"0\",\"uiUniqueId\":\"8df4fda5-d39d-4463-ab92-fb99abea5eaa\"}"},"calculationPrice":"String","calculationPrice.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"calculationPrice\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"1eccf22c-f1f6-426e-8c8c-cb6343e48948\"}"},"extendedChangePercent":"String","extendedChangePercent.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"extendedChangePercent\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\",\"uiUniqueId\":\"e3018791-1789-4117-9414-f122aa4d0c0e\"}"},"latestSource":"String","latestSource.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"latestSource\",\"mandatory\":\"false\",\"order\":\"34\",\"max_length\":\"0\",\"uiUniqueId\":\"65d98cf9-1b6e-4eea-a0a4-69a209d76a77\"}"},"iexOpen":"String","iexOpen.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexOpen\",\"mandatory\":\"false\",\"order\":\"27\",\"max_length\":\"0\",\"uiUniqueId\":\"a1bbd0d3-43fd-4773-beac-1979a522764f\"}"},"iexBidPrice":"String","iexBidPrice.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexBidPrice\",\"mandatory\":\"false\",\"order\":\"21\",\"max_length\":\"0\",\"uiUniqueId\":\"296e02b4-2e21-427c-a4cc-fa2cf46fa72c\"}"},"previousClose":"String","previousClose.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"previousClose\",\"mandatory\":\"false\",\"order\":\"48\",\"max_length\":\"0\",\"uiUniqueId\":\"a46fc441-8d40-4b3c-b4f8-b2047b5d8d46\"}"},"peRatio":"String","peRatio.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"peRatio\",\"mandatory\":\"false\",\"order\":\"47\",\"max_length\":\"0\",\"uiUniqueId\":\"edbe323b-4c1a-4480-b9dc-0c04e75e25a1\"}"},"isUSMarketOpen":"String","isUSMarketOpen.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"isUSMarketOpen\",\"mandatory\":\"false\",\"order\":\"56\",\"max_length\":\"0\",\"uiUniqueId\":\"df21baf0-ede6-4753-9057-ebcf04bc523d\"}"},"low":"String","low.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"low\",\"mandatory\":\"false\",\"order\":\"38\",\"max_length\":\"0\",\"uiUniqueId\":\"dbf4dd72-efa5-4ab1-ab94-a365415b5090\"}"},"oddLotDelayedPrice":"String","oddLotDelayedPrice.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"oddLotDelayedPrice\",\"mandatory\":\"false\",\"order\":\"42\",\"max_length\":\"0\",\"uiUniqueId\":\"91872ebd-7a85-43c1-a64e-3efb8431c2c3\"}"},"extendedPriceTime":"String","extendedPriceTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"extendedPriceTime\",\"mandatory\":\"false\",\"order\":\"15\",\"max_length\":\"0\",\"uiUniqueId\":\"d2a91459-abee-4801-b2f5-910c7c938e4e\"}"},"changePercent":"String","changePercent.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"changePercent\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"55d5eccc-3b90-4fa0-a85e-4add596b1adc\"}"},"closeTime":"String","closeTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"closeTime\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\",\"uiUniqueId\":\"b852e7ea-a011-48a9-b57d-3ca94158f21c\"}"},"currency":"String","currency.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"currency\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\",\"uiUniqueId\":\"8a49f1e2-121c-48d4-9b0d-dcf4b51ae227\"}"},"week52High":"String","week52High.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"week52High\",\"mandatory\":\"false\",\"order\":\"53\",\"max_length\":\"0\",\"uiUniqueId\":\"eaf4d6b6-02bd-41ff-9583-02848ded0038\"}"},"openTime":"String","openTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"openTime\",\"mandatory\":\"false\",\"order\":\"45\",\"max_length\":\"0\",\"uiUniqueId\":\"6c353a05-d891-4ff5-8c94-f57c0687eda9\"}"},"close":"String","close.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"close\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"443efbb8-31c7-4fc2-a613-e2eb602902e1\"}"},"iexCloseTime":"String","iexCloseTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexCloseTime\",\"mandatory\":\"false\",\"order\":\"24\",\"max_length\":\"0\",\"uiUniqueId\":\"32ee9f63-7a38-4450-a7a6-70daf10d9352\"}"},"oddLotDelayedPriceTime":"String","oddLotDelayedPriceTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"oddLotDelayedPriceTime\",\"mandatory\":\"false\",\"order\":\"43\",\"max_length\":\"0\",\"uiUniqueId\":\"1a5503b0-c5e0-485f-9184-e173e538b713\"}"},"previousVolume":"String","previousVolume.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"previousVolume\",\"mandatory\":\"false\",\"order\":\"49\",\"max_length\":\"0\",\"uiUniqueId\":\"07372703-fceb-4675-bf95-a0c3f38068b2\"}"},"iexRealtimeSize":"String","iexRealtimeSize.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexRealtimeSize\",\"mandatory\":\"false\",\"order\":\"30\",\"max_length\":\"0\",\"uiUniqueId\":\"425d4fef-8435-4b24-938d-68b67ca12d92\"}"},"iexLastUpdated":"String","iexLastUpdated.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexLastUpdated\",\"mandatory\":\"false\",\"order\":\"25\",\"max_length\":\"0\",\"uiUniqueId\":\"b97dbc22-8467-402c-994a-68b232ac9d30\"}"},"change":"String","change.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"change\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"aa96b7fe-26b7-40e9-bd70-f422b1a3af37\"}"},"iexAskPrice":"String","iexAskPrice.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexAskPrice\",\"mandatory\":\"false\",\"order\":\"19\",\"max_length\":\"0\",\"uiUniqueId\":\"cd551a37-602c-4d3e-b83c-780c17861a87\"}"},"latestVolume":"String","latestVolume.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"latestVolume\",\"mandatory\":\"false\",\"order\":\"37\",\"max_length\":\"0\",\"uiUniqueId\":\"26029cdc-4538-4949-84fe-ebe8ae3a38d0\"}"},"lowSource":"String","lowSource.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"lowSource\",\"mandatory\":\"false\",\"order\":\"39\",\"max_length\":\"0\",\"uiUniqueId\":\"83a73979-ec7b-4c7a-934f-9aa9c125010b\"}"},"iexVolume":"String","iexVolume.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexVolume\",\"mandatory\":\"false\",\"order\":\"31\",\"max_length\":\"0\",\"uiUniqueId\":\"29f138e7-46aa-46b1-b3a1-95c279ccf5a2\"}"},"iexAskSize":"String","iexAskSize.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexAskSize\",\"mandatory\":\"false\",\"order\":\"20\",\"max_length\":\"0\",\"uiUniqueId\":\"1bd45107-4afd-47e8-98cb-c10031d4b436\"}"},"latestTime":"String","latestTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"latestTime\",\"mandatory\":\"false\",\"order\":\"35\",\"max_length\":\"0\",\"uiUniqueId\":\"e272cf70-8ec2-4cf6-a42e-8f4ab5603c2f\"}"},"iexBidSize":"String","iexBidSize.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexBidSize\",\"mandatory\":\"false\",\"order\":\"22\",\"max_length\":\"0\",\"uiUniqueId\":\"9af8d7d2-abf8-41cd-86eb-28fa1a790566\"}"},"lowTime":"String","lowTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"lowTime\",\"mandatory\":\"false\",\"order\":\"40\",\"max_length\":\"0\",\"uiUniqueId\":\"4a58c716-5b29-40dd-812a-e6d6b3d6ee07\"}"},"open":"String","open.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"open\",\"mandatory\":\"false\",\"order\":\"44\",\"max_length\":\"0\",\"uiUniqueId\":\"81d28c9b-e8d4-49bd-ae43-0df120453b97\"}"}},"FlowDesigner:FDb85dd38ebe7145101706b31d89cc4113.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"352f5b28-df71-4eb0-b051-b42791821ac6\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDb85dd38ebe7145101706b31d89cc4113\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:47:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c5dd38e87714510532b43f7cebb3513</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FDb85dd38ebe7145101706b31d89cc4113</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name>sys_complex_object_7c5dd38e87714510532b43f7cebb3513</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:48:16</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDb85dd38ebe7145101706b31d89cc4113,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=352f5b28-df71-4eb0-b051-b42791821ac6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">7c5dd38e87714510532b43f7cebb350f</model>
+        <model_id>7c5dd38e87714510532b43f7cebb350f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_7c5dd38e87714510532b43f7cebb350f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:47:47</sys_created_on>
+        <sys_id>f05dd38e87714510532b43f7cebb3516</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:47:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7c5dd38e87714510532b43f7cebb350f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_7c5dd38e87714510532b43f7cebb350f^sys_idNOT INbc5dd38e87714510532b43f7cebb351c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_7c5dd38e87714510532b43f7cebb350f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:47:47</sys_created_on>
+        <sys_id>bc5dd38e87714510532b43f7cebb351c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:47:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Generate Offer Letter">3b8cdb0e87714510532b43f7cebb35c8</action>
+        <cid>1e071f12-b206-4e48-b1d9-b3bf6bd59204</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:46:34</sys_created_on>
+        <sys_id>c30d9b4e87714510532b43f7cebb3555</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:27</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c30d9b4e87714510532b43f7cebb3555"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c30d9b4e87714510532b43f7cebb3555</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:46:35</sys_created_on>
+        <sys_id>170d9b4e87714510532b43f7cebb357b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:46:35</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c30d9b4e87714510532b43f7cebb3555</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:46:35</sys_created_on>
+        <sys_id>1b0d9b4e87714510532b43f7cebb357a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:46:35</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c30d9b4e87714510532b43f7cebb3555</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:47:47</sys_created_on>
+        <sys_id>385dd38e87714510532b43f7cebb350c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:47:47</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c30d9b4e87714510532b43f7cebb3555</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:46:35</sys_created_on>
+        <sys_id>530d9b4e87714510532b43f7cebb357b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:46:35</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"token","value":"pk_e0bfaaec7e60434c8a1f69f4c12ba412"}]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c30d9b4e87714510532b43f7cebb3555</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:46:35</sys_created_on>
+        <sys_id>570d9b4e87714510532b43f7cebb357a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:46:35</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c30d9b4e87714510532b43f7cebb3555</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:46:35</sys_created_on>
+        <sys_id>5f0d9b4e87714510532b43f7cebb3579</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:46:35</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c30d9b4e87714510532b43f7cebb3555</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:46:35</sys_created_on>
+        <sys_id>9f0d9b4e87714510532b43f7cebb357a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:46:35</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c30d9b4e87714510532b43f7cebb3555</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:27</sys_created_on>
+        <sys_id>d1bd53ce87714510532b43f7cebb3590</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:27</sys_updated_on>
+        <value>/stable/stock/NOW/quote</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c30d9b4e87714510532b43f7cebb3555</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:46:35</sys_created_on>
+        <sys_id>db0d9b4e87714510532b43f7cebb357a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:46:35</sys_updated_on>
+        <value>https://cloud.iexapis.com</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=c30d9b4e87714510532b43f7cebb3555"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=c30d9b4e87714510532b43f7cebb3555"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c30d9b4e87714510532b43f7cebb3555"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c30d9b4e87714510532b43f7cebb3555"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_c30d9b4e87714510532b43f7cebb3555"/>
+    <sys_hub_action_input action="delete_multiple" query="model=3b8cdb0e87714510532b43f7cebb35c8^sys_idNOT INe4bc534e87714510532b43f7cebb356f"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=87e6b55c-417e-4875-bcc1-2b7330f3befa</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_snc_candidate_0_offer</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>offer</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Offer</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Generate Offer Letter">3b8cdb0e87714510532b43f7cebb35c8</model>
+        <model_id>3b8cdb0e87714510532b43f7cebb35c8</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_3b8cdb0e87714510532b43f7cebb35c8</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_snc_candidate_0_offer">x_snc_candidate_0_offer</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:45:02</sys_created_on>
+        <sys_id>e4bc534e87714510532b43f7cebb356f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:45:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e4bc534e87714510532b43f7cebb356f"/>
+    <sys_hub_action_output action="delete_multiple" query="model=3b8cdb0e87714510532b43f7cebb35c8^sys_idNOT IN570d9b4e87714510532b43f7cebb358b,847dd78e87714510532b43f7cebb35d0,d70d9b4e87714510532b43f7cebb3582"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=8540cda3-ca40-4dbb-81f6-e3685435d65e,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Generate Offer Letter">3b8cdb0e87714510532b43f7cebb35c8</model>
+        <model_id>3b8cdb0e87714510532b43f7cebb35c8</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_3b8cdb0e87714510532b43f7cebb35c8</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:46:35</sys_created_on>
+        <sys_id>570d9b4e87714510532b43f7cebb358b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:46:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=570d9b4e87714510532b43f7cebb358b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=570d9b4e87714510532b43f7cebb358b"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=7acf15b3-79d8-4cd9-98d8-9d12c61eee93</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>success</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Success</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Generate Offer Letter">3b8cdb0e87714510532b43f7cebb35c8</model>
+        <model_id>3b8cdb0e87714510532b43f7cebb35c8</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_3b8cdb0e87714510532b43f7cebb35c8</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:48:16</sys_created_on>
+        <sys_id>847dd78e87714510532b43f7cebb35d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:48:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=847dd78e87714510532b43f7cebb35d0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=847dd78e87714510532b43f7cebb35d0"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD130d9b4e0371451034ebd7e7fdeb237f</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>ea5c6ac2873d0510532b43f7cebb359e</scope_name>
+        <serialized_content>{"FlowDesigner:FD130d9b4e0371451034ebd7e7fdeb237f":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD130d9b4e0371451034ebd7e7fdeb237f.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d851b1ca-8677-4dc9-aab4-dc982c6645ec\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD130d9b4e0371451034ebd7e7fdeb237f\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:46:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d30d9b4e87714510532b43f7cebb357f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD130d9b4e0371451034ebd7e7fdeb237f</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name>sys_complex_object_d30d9b4e87714510532b43f7cebb357f</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:47:47</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD130d9b4e0371451034ebd7e7fdeb237f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=d851b1ca-8677-4dc9-aab4-dc982c6645ec</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Generate Offer Letter">3b8cdb0e87714510532b43f7cebb35c8</model>
+        <model_id>3b8cdb0e87714510532b43f7cebb35c8</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_3b8cdb0e87714510532b43f7cebb35c8</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:46:35</sys_created_on>
+        <sys_id>d70d9b4e87714510532b43f7cebb3582</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:46:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d70d9b4e87714510532b43f7cebb3582"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d70d9b4e87714510532b43f7cebb3582"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3b8cdb0e87714510532b43f7cebb35c8"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=3b8cdb0e87714510532b43f7cebb35c8^sys_idNOT INf8bc534e87714510532b43f7cebb3581"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Generate Offer Letter">3b8cdb0e87714510532b43f7cebb35c8</action_type_id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:45:02</sys_created_on>
+        <sys_id>f8bc534e87714510532b43f7cebb3581</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:45:02</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=f8bc534e87714510532b43f7cebb3581"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_3b8cdb0e87714510532b43f7cebb35c8^sys_idNOT IN78bc534e87714510532b43f7cebb357c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>offer</element>
+        <help/>
+        <hint/>
+        <label>Offer</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_3b8cdb0e87714510532b43f7cebb35c8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:45:02</sys_created_on>
+        <sys_id>78bc534e87714510532b43f7cebb357c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:45:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_3b8cdb0e87714510532b43f7cebb35c8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_3b8cdb0e87714510532b43f7cebb35c8^sys_idNOT IN0c7dd78e87714510532b43f7cebb35d6,9b0d9b4e87714510532b43f7cebb3596,9f0d9b4e87714510532b43f7cebb3589"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>success</element>
+        <help/>
+        <hint/>
+        <label>Success</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_3b8cdb0e87714510532b43f7cebb35c8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:48:16</sys_created_on>
+        <sys_id>0c7dd78e87714510532b43f7cebb35d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:48:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_3b8cdb0e87714510532b43f7cebb35c8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:46:35</sys_created_on>
+        <sys_id>9b0d9b4e87714510532b43f7cebb3596</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:46:35</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_3b8cdb0e87714510532b43f7cebb35c8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:46:35</sys_created_on>
+        <sys_id>9f0d9b4e87714510532b43f7cebb3589</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:46:35</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_3b8cdb0e87714510532b43f7cebb35c8"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=3b8cdb0e87714510532b43f7cebb35c8^sys_idNOT INd9ddd7ce87714510532b43f7cebb359b"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Generate Offer Letter">3b8cdb0e87714510532b43f7cebb35c8</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"d9ddd7ce87714510532b43f7cebb359b","name":"plan","plan_signature":null}}</plan>
+        <snapshot>f0ddd7ce87714510532b43f7cebb3511</snapshot>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:50:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d9ddd7ce87714510532b43f7cebb359b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:50:00</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>generate_offer_letter</internal_name>
+        <label_cache>[{"name":"{{action.offer}}","label":"action➛Offer","type":"action","ref":"","reference_display":"Offer","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1e071f12-b206-4e48-b1d9-b3bf6bd59204].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[8ed3b6c8-3b5d-44ce-9312-8a4e241ad706].__step_status__.code}}","label":"step➛JSON Parser step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Generate Offer Letter</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Generate Offer Letter">3b8cdb0e87714510532b43f7cebb35c8</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>64dd97ce87714510532b43f7cebb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:57</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=64dd97ce87714510532b43f7cebb3593"/>
+    <sys_variable_value action="delete_multiple" query="document_key=64dd97ce87714510532b43f7cebb3593"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>64dd97ce87714510532b43f7cebb3593</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>7cddd7ce87714510532b43f7cebb350e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD38dd97ce3b7145108df7003236a690e1":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD38dd97ce3b7145108df7003236a690e1.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d851b1ca-8677-4dc9-aab4-dc982c6645ec\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD38dd97ce3b7145108df7003236a690e1\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">b4dd97ce87714510532b43f7cebb35f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>64dd97ce87714510532b43f7cebb3593</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>b8ddd7ce87714510532b43f7cebb350e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">78dd97ce87714510532b43f7cebb35f8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=64dd97ce87714510532b43f7cebb3593"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>success</field>
+        <id>64dd97ce87714510532b43f7cebb3593</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>b0ddd7ce87714510532b43f7cebb350e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_64dd97ce87714510532b43f7cebb3593</table>
+        <value>{{step[8ed3b6c8-3b5d-44ce-9312-8a4e241ad706].__step_status__.code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>64dd97ce87714510532b43f7cebb3593</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>38ddd7ce87714510532b43f7cebb350e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_64dd97ce87714510532b43f7cebb3593</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>64dd97ce87714510532b43f7cebb3593</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>74ddd7ce87714510532b43f7cebb350e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_64dd97ce87714510532b43f7cebb3593</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=64dd97ce87714510532b43f7cebb3593^sys_idNOT IN70dd97ce87714510532b43f7cebb35d0,f4dd97ce87714510532b43f7cebb35bd"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Generate Offer Letter">64dd97ce87714510532b43f7cebb3593</action>
+        <cid>8ed3b6c8-3b5d-44ce-9312-8a4e241ad706</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:57</sys_created_on>
+        <sys_id>70dd97ce87714510532b43f7cebb35d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=70dd97ce87714510532b43f7cebb35d0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>70dd97ce87714510532b43f7cebb35d0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>70dd97ce87714510532b43f7cebb35df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <value>structured</value>
+        <variable display_value="Payload view">95d4280787523300f917e55936cb0bfe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>70dd97ce87714510532b43f7cebb35d0</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>bcdd97ce87714510532b43f7cebb35de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <value>{"avgTotalVolume":2067562,"calculationPrice":"tops","change":-3.51,"changePercent":-0.00631,"close":null,"closeSource":"official","closeTime":null,"companyName":"ServiceNow Inc","currency":"USD","delayedPrice":null,"delayedPriceTime":null,"extendedChange":null,"extendedChangePercent":null,"extendedPrice":null,"extendedPriceTime":null,"high":null,"highSource":"15 minute delayed price","highTime":1645547539684,"iexAskPrice":0,"iexAskSize":0,"iexBidPrice":0,"iexBidSize":0,"iexClose":552.5,"iexCloseTime":1645548397030,"iexLastUpdated":1645548397030,"iexMarketPercent":0.059013539539967956,"iexOpen":544.98,"iexOpenTime":1645540203069,"iexRealtimePrice":552.5,"iexRealtimeSize":16,"iexVolume":20407,"lastTradeTime":1645548397030,"latestPrice":552.5,"latestSource":"IEX real time price","latestTime":"11:46:37 AM","latestUpdate":1645548397030,"latestVolume":null,"low":null,"lowSource":"15 minute delayed price","lowTime":1645540200872,"marketCap":110500000000,"oddLotDelayedPrice":null,"oddLotDelayedPriceTime":null,"open":null,"openTime":null,"openSource":"official","peRatio":244.47,"previousClose":556.01,"previousVolume":1276726,"primaryExchange":"NEW YORK STOCK EXCHANGE INC.","symbol":"NOW","volume":null,"week52High":707.6,"week52Low":448.27,"ytdChange":-0.14973715410331076,"isUSMarketOpen":true}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>70dd97ce87714510532b43f7cebb35d0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>f8dd97ce87714510532b43f7cebb35de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"avgTotalVolume","children":[],"type":"string","jpath":"$.avgTotalVolume","previewValue":"2067562"},{"name":"calculationPrice","children":[],"type":"string","jpath":"$.calculationPrice","previewValue":"tops"},{"name":"change","children":[],"type":"string","jpath":"$.change","previewValue":"-3.51"},{"name":"changePercent","children":[],"type":"string","jpath":"$.changePercent","previewValue":"-0.00631"},{"name":"close","children":[],"type":"string","jpath":"$.close","previewValue":""},{"name":"closeSource","children":[],"type":"string","jpath":"$.closeSource","previewValue":"official"},{"name":"closeTime","children":[],"type":"string","jpath":"$.closeTime","previewValue":""},{"name":"companyName","children":[],"type":"string","jpath":"$.companyName","previewValue":"ServiceNow Inc"},{"name":"currency","children":[],"type":"string","jpath":"$.currency","previewValue":"USD"},{"name":"delayedPrice","children":[],"type":"string","jpath":"$.delayedPrice","previewValue":""},{"name":"delayedPriceTime","children":[],"type":"string","jpath":"$.delayedPriceTime","previewValue":""},{"name":"extendedChange","children":[],"type":"string","jpath":"$.extendedChange","previewValue":""},{"name":"extendedChangePercent","children":[],"type":"string","jpath":"$.extendedChangePercent","previewValue":""},{"name":"extendedPrice","children":[],"type":"string","jpath":"$.extendedPrice","previewValue":""},{"name":"extendedPriceTime","children":[],"type":"string","jpath":"$.extendedPriceTime","previewValue":""},{"name":"high","children":[],"type":"string","jpath":"$.high","previewValue":""},{"name":"highSource","children":[],"type":"string","jpath":"$.highSource","previewValue":"15 minute delayed price"},{"name":"highTime","children":[],"type":"string","jpath":"$.highTime","previewValue":"1645547539684"},{"name":"iexAskPrice","children":[],"type":"string","jpath":"$.iexAskPrice","previewValue":"0"},{"name":"iexAskSize","children":[],"type":"string","jpath":"$.iexAskSize","previewValue":"0"},{"name":"iexBidPrice","children":[],"type":"string","jpath":"$.iexBidPrice","previewValue":"0"},{"name":"iexBidSize","children":[],"type":"string","jpath":"$.iexBidSize","previewValue":"0"},{"name":"iexClose","children":[],"type":"string","jpath":"$.iexClose","previewValue":"552.5"},{"name":"iexCloseTime","children":[],"type":"string","jpath":"$.iexCloseTime","previewValue":"1645548397030"},{"name":"iexLastUpdated","children":[],"type":"string","jpath":"$.iexLastUpdated","previewValue":"1645548397030"},{"name":"iexMarketPercent","children":[],"type":"string","jpath":"$.iexMarketPercent","previewValue":"0.059013539539967956"},{"name":"iexOpen","children":[],"type":"string","jpath":"$.iexOpen","previewValue":"544.98"},{"name":"iexOpenTime","children":[],"type":"string","jpath":"$.iexOpenTime","previewValue":"1645540203069"},{"name":"iexRealtimePrice","children":[],"type":"string","jpath":"$.iexRealtimePrice","previewValue":"552.5"},{"name":"iexRealtimeSize","children":[],"type":"string","jpath":"$.iexRealtimeSize","previewValue":"16"},{"name":"iexVolume","children":[],"type":"string","jpath":"$.iexVolume","previewValue":"20407"},{"name":"lastTradeTime","children":[],"type":"string","jpath":"$.lastTradeTime","previewValue":"1645548397030"},{"name":"latestPrice","children":[],"type":"string","jpath":"$.latestPrice","previewValue":"552.5"},{"name":"latestSource","children":[],"type":"string","jpath":"$.latestSource","previewValue":"IEX real time price"},{"name":"latestTime","children":[],"type":"string","jpath":"$.latestTime","previewValue":"11:46:37 AM"},{"name":"latestUpdate","children":[],"type":"string","jpath":"$.latestUpdate","previewValue":"1645548397030"},{"name":"latestVolume","children":[],"type":"string","jpath":"$.latestVolume","previewValue":""},{"name":"low","children":[],"type":"string","jpath":"$.low","previewValue":""},{"name":"lowSource","children":[],"type":"string","jpath":"$.lowSource","previewValue":"15 minute delayed price"},{"name":"lowTime","children":[],"type":"string","jpath":"$.lowTime","previewValue":"1645540200872"},{"name":"marketCap","children":[],"type":"string","jpath":"$.marketCap","previewValue":"110500000000"},{"name":"oddLotDelayedPrice","children":[],"type":"string","jpath":"$.oddLotDelayedPrice","previewValue":""},{"name":"oddLotDelayedPriceTime","children":[],"type":"string","jpath":"$.oddLotDelayedPriceTime","previewValue":""},{"name":"open","children":[],"type":"string","jpath":"$.open","previewValue":""},{"name":"openTime","children":[],"type":"string","jpath":"$.openTime","previewValue":""},{"name":"openSource","children":[],"type":"string","jpath":"$.openSource","previewValue":"official"},{"name":"peRatio","children":[],"type":"string","jpath":"$.peRatio","previewValue":"244.47"},{"name":"previousClose","children":[],"type":"string","jpath":"$.previousClose","previewValue":"556.01"},{"name":"previousVolume","children":[],"type":"string","jpath":"$.previousVolume","previewValue":"1276726"},{"name":"primaryExchange","children":[],"type":"string","jpath":"$.primaryExchange","previewValue":"NEW YORK STOCK EXCHANGE INC."},{"name":"symbol","children":[],"type":"string","jpath":"$.symbol","previewValue":"NOW"},{"name":"volume","children":[],"type":"string","jpath":"$.volume","previewValue":""},{"name":"week52High","children":[],"type":"string","jpath":"$.week52High","previewValue":"707.6"},{"name":"week52Low","children":[],"type":"string","jpath":"$.week52Low","previewValue":"448.27"},{"name":"ytdChange","children":[],"type":"string","jpath":"$.ytdChange","previewValue":"-0.14973715410331076"},{"name":"isUSMarketOpen","children":[],"type":"string","jpath":"$.isUSMarketOpen","previewValue":"true"}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_70dd97ce87714510532b43f7cebb35d0^id=70dd97ce87714510532b43f7cebb35d0"/>
+    <sys_element_mapping action="delete_multiple" query="id=70dd97ce87714510532b43f7cebb35d0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload_view</field>
+        <id>70dd97ce87714510532b43f7cebb35d0</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>b4dd97ce87714510532b43f7cebb35de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>70dd97ce87714510532b43f7cebb35d0</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>78dd97ce87714510532b43f7cebb35de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>70dd97ce87714510532b43f7cebb35d0</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>30dd97ce87714510532b43f7cebb35de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[1e071f12-b206-4e48-b1d9-b3bf6bd59204].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>70dd97ce87714510532b43f7cebb35d0</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>f0dd97ce87714510532b43f7cebb35de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=70dd97ce87714510532b43f7cebb35d0"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=70dd97ce87714510532b43f7cebb35d0^sys_idNOT IN70dd97ce87714510532b43f7cebb35d5"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDf8dd97ce2c7145104533989207d15ed2</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>ea5c6ac2873d0510532b43f7cebb359e</scope_name>
+        <serialized_content>{"FlowDesigner:FDf8dd97ce2c7145104533989207d15ed2":{"symbol":"String","symbol.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"symbol\",\"mandatory\":\"false\",\"order\":\"51\",\"max_length\":\"0\",\"uiUniqueId\":\"8ce25369-bc76-466a-a46b-9536663c38d2\"}"},"highTime":"String","highTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"highTime\",\"mandatory\":\"false\",\"order\":\"18\",\"max_length\":\"0\",\"uiUniqueId\":\"c92ac47d-dcb9-45ef-8633-c5e459b5f577\"}"},"avgTotalVolume":"String","avgTotalVolume.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"avgTotalVolume\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"a47a2646-95f6-4ce7-9ed0-6c172194df70\"}"},"companyName":"String","companyName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"companyName\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\",\"uiUniqueId\":\"b61ed81f-15ef-475f-b07c-aa02a632b7e8\"}"},"openSource":"String","openSource.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"openSource\",\"mandatory\":\"false\",\"order\":\"46\",\"max_length\":\"0\",\"uiUniqueId\":\"3e35a4e4-b3ef-4f42-99b1-fc4b34e3c8be\"}"},"delayedPrice":"String","delayedPrice.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"delayedPrice\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\",\"uiUniqueId\":\"e3c555e9-596e-46f0-9f86-7bd578cc65bd\"}"},"iexMarketPercent":"String","iexMarketPercent.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexMarketPercent\",\"mandatory\":\"false\",\"order\":\"26\",\"max_length\":\"0\",\"uiUniqueId\":\"63d0b332-f166-48fd-95e0-c0773dbcd61e\"}"},"primaryExchange":"String","primaryExchange.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"primaryExchange\",\"mandatory\":\"false\",\"order\":\"50\",\"max_length\":\"0\",\"uiUniqueId\":\"747d6824-3dfe-4fb5-a053-52eed128bbf9\"}"},"latestUpdate":"String","latestUpdate.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"latestUpdate\",\"mandatory\":\"false\",\"order\":\"36\",\"max_length\":\"0\",\"uiUniqueId\":\"761092a5-4c74-4f60-a07c-df57ff7b9046\"}"},"high":"String","high.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"high\",\"mandatory\":\"false\",\"order\":\"16\",\"max_length\":\"0\",\"uiUniqueId\":\"4bc58a8b-7571-43a5-9bfd-323ce990ec49\"}"},"iexOpenTime":"String","iexOpenTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexOpenTime\",\"mandatory\":\"false\",\"order\":\"28\",\"max_length\":\"0\",\"uiUniqueId\":\"4afaad9d-cd61-4945-94eb-098df4489702\"}"},"delayedPriceTime":"String","delayedPriceTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"delayedPriceTime\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\",\"uiUniqueId\":\"9f534280-ad0e-4b52-9c92-a1e734e36e80\"}"},"extendedPrice":"String","extendedPrice.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"extendedPrice\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\",\"uiUniqueId\":\"4212c7d7-c536-45be-b17f-1c9915031a8d\"}"},"week52Low":"String","week52Low.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"week52Low\",\"mandatory\":\"false\",\"order\":\"54\",\"max_length\":\"0\",\"uiUniqueId\":\"84126249-b9ba-4aa3-b738-b4e31856631c\"}"},"highSource":"String","highSource.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"highSource\",\"mandatory\":\"false\",\"order\":\"17\",\"max_length\":\"0\",\"uiUniqueId\":\"3bafbcfa-b84f-4469-babb-b93d45203464\"}"},"latestPrice":"String","latestPrice.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"latestPrice\",\"mandatory\":\"false\",\"order\":\"33\",\"max_length\":\"0\",\"uiUniqueId\":\"f4738c88-3c74-4c85-8492-4e666b24b0f6\"}"},"marketCap":"String","marketCap.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"marketCap\",\"mandatory\":\"false\",\"order\":\"41\",\"max_length\":\"0\",\"uiUniqueId\":\"42928485-5db9-4ebd-ad94-fcc979c92bb4\"}"},"iexClose":"String","iexClose.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexClose\",\"mandatory\":\"false\",\"order\":\"23\",\"max_length\":\"0\",\"uiUniqueId\":\"da8389ec-bf66-4bf2-8a94-0a80c1c6cd51\"}"},"volume":"String","volume.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"volume\",\"mandatory\":\"false\",\"order\":\"52\",\"max_length\":\"0\",\"uiUniqueId\":\"fed54378-159e-400e-a704-f342a6df9e44\"}"},"ytdChange":"String","ytdChange.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ytdChange\",\"mandatory\":\"false\",\"order\":\"55\",\"max_length\":\"0\",\"uiUniqueId\":\"f94ed529-8319-4e79-b1a3-a2c0231f318f\"}"},"lastTradeTime":"String","lastTradeTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"lastTradeTime\",\"mandatory\":\"false\",\"order\":\"32\",\"max_length\":\"0\",\"uiUniqueId\":\"84168f6b-d749-4fd7-9eae-b8d538578e20\"}"},"closeSource":"String","closeSource.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"closeSource\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"c2294f21-f255-48aa-9c59-73fbecf9c3ea\"}"},"extendedChange":"String","extendedChange.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"extendedChange\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\",\"uiUniqueId\":\"592ea699-315b-4d05-a062-3282fbbdf54f\"}"},"iexRealtimePrice":"String","iexRealtimePrice.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexRealtimePrice\",\"mandatory\":\"false\",\"order\":\"29\",\"max_length\":\"0\",\"uiUniqueId\":\"8df4fda5-d39d-4463-ab92-fb99abea5eaa\"}"},"calculationPrice":"String","calculationPrice.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"calculationPrice\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"1eccf22c-f1f6-426e-8c8c-cb6343e48948\"}"},"extendedChangePercent":"String","extendedChangePercent.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"extendedChangePercent\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\",\"uiUniqueId\":\"e3018791-1789-4117-9414-f122aa4d0c0e\"}"},"latestSource":"String","latestSource.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"latestSource\",\"mandatory\":\"false\",\"order\":\"34\",\"max_length\":\"0\",\"uiUniqueId\":\"65d98cf9-1b6e-4eea-a0a4-69a209d76a77\"}"},"iexOpen":"String","iexOpen.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexOpen\",\"mandatory\":\"false\",\"order\":\"27\",\"max_length\":\"0\",\"uiUniqueId\":\"a1bbd0d3-43fd-4773-beac-1979a522764f\"}"},"iexBidPrice":"String","iexBidPrice.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexBidPrice\",\"mandatory\":\"false\",\"order\":\"21\",\"max_length\":\"0\",\"uiUniqueId\":\"296e02b4-2e21-427c-a4cc-fa2cf46fa72c\"}"},"previousClose":"String","previousClose.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"previousClose\",\"mandatory\":\"false\",\"order\":\"48\",\"max_length\":\"0\",\"uiUniqueId\":\"a46fc441-8d40-4b3c-b4f8-b2047b5d8d46\"}"},"peRatio":"String","peRatio.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"peRatio\",\"mandatory\":\"false\",\"order\":\"47\",\"max_length\":\"0\",\"uiUniqueId\":\"edbe323b-4c1a-4480-b9dc-0c04e75e25a1\"}"},"isUSMarketOpen":"String","isUSMarketOpen.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"isUSMarketOpen\",\"mandatory\":\"false\",\"order\":\"56\",\"max_length\":\"0\",\"uiUniqueId\":\"df21baf0-ede6-4753-9057-ebcf04bc523d\"}"},"low":"String","low.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"low\",\"mandatory\":\"false\",\"order\":\"38\",\"max_length\":\"0\",\"uiUniqueId\":\"dbf4dd72-efa5-4ab1-ab94-a365415b5090\"}"},"oddLotDelayedPrice":"String","oddLotDelayedPrice.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"oddLotDelayedPrice\",\"mandatory\":\"false\",\"order\":\"42\",\"max_length\":\"0\",\"uiUniqueId\":\"91872ebd-7a85-43c1-a64e-3efb8431c2c3\"}"},"extendedPriceTime":"String","extendedPriceTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"extendedPriceTime\",\"mandatory\":\"false\",\"order\":\"15\",\"max_length\":\"0\",\"uiUniqueId\":\"d2a91459-abee-4801-b2f5-910c7c938e4e\"}"},"changePercent":"String","changePercent.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"changePercent\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"55d5eccc-3b90-4fa0-a85e-4add596b1adc\"}"},"closeTime":"String","closeTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"closeTime\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\",\"uiUniqueId\":\"b852e7ea-a011-48a9-b57d-3ca94158f21c\"}"},"currency":"String","currency.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"currency\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\",\"uiUniqueId\":\"8a49f1e2-121c-48d4-9b0d-dcf4b51ae227\"}"},"week52High":"String","week52High.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"week52High\",\"mandatory\":\"false\",\"order\":\"53\",\"max_length\":\"0\",\"uiUniqueId\":\"eaf4d6b6-02bd-41ff-9583-02848ded0038\"}"},"openTime":"String","openTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"openTime\",\"mandatory\":\"false\",\"order\":\"45\",\"max_length\":\"0\",\"uiUniqueId\":\"6c353a05-d891-4ff5-8c94-f57c0687eda9\"}"},"close":"String","close.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"close\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"443efbb8-31c7-4fc2-a613-e2eb602902e1\"}"},"iexCloseTime":"String","iexCloseTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexCloseTime\",\"mandatory\":\"false\",\"order\":\"24\",\"max_length\":\"0\",\"uiUniqueId\":\"32ee9f63-7a38-4450-a7a6-70daf10d9352\"}"},"oddLotDelayedPriceTime":"String","oddLotDelayedPriceTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"oddLotDelayedPriceTime\",\"mandatory\":\"false\",\"order\":\"43\",\"max_length\":\"0\",\"uiUniqueId\":\"1a5503b0-c5e0-485f-9184-e173e538b713\"}"},"previousVolume":"String","previousVolume.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"previousVolume\",\"mandatory\":\"false\",\"order\":\"49\",\"max_length\":\"0\",\"uiUniqueId\":\"07372703-fceb-4675-bf95-a0c3f38068b2\"}"},"iexRealtimeSize":"String","iexRealtimeSize.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexRealtimeSize\",\"mandatory\":\"false\",\"order\":\"30\",\"max_length\":\"0\",\"uiUniqueId\":\"425d4fef-8435-4b24-938d-68b67ca12d92\"}"},"iexLastUpdated":"String","iexLastUpdated.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexLastUpdated\",\"mandatory\":\"false\",\"order\":\"25\",\"max_length\":\"0\",\"uiUniqueId\":\"b97dbc22-8467-402c-994a-68b232ac9d30\"}"},"change":"String","change.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"change\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"aa96b7fe-26b7-40e9-bd70-f422b1a3af37\"}"},"iexAskPrice":"String","iexAskPrice.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexAskPrice\",\"mandatory\":\"false\",\"order\":\"19\",\"max_length\":\"0\",\"uiUniqueId\":\"cd551a37-602c-4d3e-b83c-780c17861a87\"}"},"latestVolume":"String","latestVolume.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"latestVolume\",\"mandatory\":\"false\",\"order\":\"37\",\"max_length\":\"0\",\"uiUniqueId\":\"26029cdc-4538-4949-84fe-ebe8ae3a38d0\"}"},"lowSource":"String","lowSource.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"lowSource\",\"mandatory\":\"false\",\"order\":\"39\",\"max_length\":\"0\",\"uiUniqueId\":\"83a73979-ec7b-4c7a-934f-9aa9c125010b\"}"},"iexVolume":"String","iexVolume.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexVolume\",\"mandatory\":\"false\",\"order\":\"31\",\"max_length\":\"0\",\"uiUniqueId\":\"29f138e7-46aa-46b1-b3a1-95c279ccf5a2\"}"},"iexAskSize":"String","iexAskSize.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexAskSize\",\"mandatory\":\"false\",\"order\":\"20\",\"max_length\":\"0\",\"uiUniqueId\":\"1bd45107-4afd-47e8-98cb-c10031d4b436\"}"},"latestTime":"String","latestTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"latestTime\",\"mandatory\":\"false\",\"order\":\"35\",\"max_length\":\"0\",\"uiUniqueId\":\"e272cf70-8ec2-4cf6-a42e-8f4ab5603c2f\"}"},"iexBidSize":"String","iexBidSize.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iexBidSize\",\"mandatory\":\"false\",\"order\":\"22\",\"max_length\":\"0\",\"uiUniqueId\":\"9af8d7d2-abf8-41cd-86eb-28fa1a790566\"}"},"lowTime":"String","lowTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"lowTime\",\"mandatory\":\"false\",\"order\":\"40\",\"max_length\":\"0\",\"uiUniqueId\":\"4a58c716-5b29-40dd-812a-e6d6b3d6ee07\"}"},"open":"String","open.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"open\",\"mandatory\":\"false\",\"order\":\"44\",\"max_length\":\"0\",\"uiUniqueId\":\"81d28c9b-e8d4-49bd-ae43-0df120453b97\"}"}},"FlowDesigner:FDf8dd97ce2c7145104533989207d15ed2.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDf8dd97ce2c7145104533989207d15ed2\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"65000\",\"uiUniqueId\":\"352f5b28-df71-4eb0-b051-b42791821ac6\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bcdd97ce87714510532b43f7cebb35d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDf8dd97ce2c7145104533989207d15ed2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name>sys_complex_object_bcdd97ce87714510532b43f7cebb35d2</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDf8dd97ce2c7145104533989207d15ed2,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=352f5b28-df71-4eb0-b051-b42791821ac6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">70dd97ce87714510532b43f7cebb35d0</model>
+        <model_id>70dd97ce87714510532b43f7cebb35d0</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_70dd97ce87714510532b43f7cebb35d0</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>70dd97ce87714510532b43f7cebb35d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=70dd97ce87714510532b43f7cebb35d0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_70dd97ce87714510532b43f7cebb35d0^sys_idNOT IN70dd97ce87714510532b43f7cebb35db"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_70dd97ce87714510532b43f7cebb35d0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>70dd97ce87714510532b43f7cebb35db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Generate Offer Letter">64dd97ce87714510532b43f7cebb3593</action>
+        <cid>1e071f12-b206-4e48-b1d9-b3bf6bd59204</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:57</sys_created_on>
+        <sys_id>f4dd97ce87714510532b43f7cebb35bd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:57</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f4dd97ce87714510532b43f7cebb35bd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f4dd97ce87714510532b43f7cebb35bd</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:57</sys_created_on>
+        <sys_id>30dd97ce87714510532b43f7cebb35cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:57</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f4dd97ce87714510532b43f7cebb35bd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:57</sys_created_on>
+        <sys_id>34dd97ce87714510532b43f7cebb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:57</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f4dd97ce87714510532b43f7cebb35bd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:57</sys_created_on>
+        <sys_id>3cdd97ce87714510532b43f7cebb35cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:57</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f4dd97ce87714510532b43f7cebb35bd</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:57</sys_created_on>
+        <sys_id>78dd97ce87714510532b43f7cebb35cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:57</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"token","value":"pk_e0bfaaec7e60434c8a1f69f4c12ba412"}]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f4dd97ce87714510532b43f7cebb35bd</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:57</sys_created_on>
+        <sys_id>7cdd97ce87714510532b43f7cebb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:57</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f4dd97ce87714510532b43f7cebb35bd</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:57</sys_created_on>
+        <sys_id>b4dd97ce87714510532b43f7cebb35cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:57</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f4dd97ce87714510532b43f7cebb35bd</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:57</sys_created_on>
+        <sys_id>b8dd97ce87714510532b43f7cebb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:57</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f4dd97ce87714510532b43f7cebb35bd</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:57</sys_created_on>
+        <sys_id>f0dd97ce87714510532b43f7cebb35cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:57</sys_updated_on>
+        <value>https://cloud.iexapis.com</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f4dd97ce87714510532b43f7cebb35bd</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:57</sys_created_on>
+        <sys_id>f4dd97ce87714510532b43f7cebb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:57</sys_updated_on>
+        <value>/stable/stock/NOW/quote</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=f4dd97ce87714510532b43f7cebb35bd"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=f4dd97ce87714510532b43f7cebb35bd"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=f4dd97ce87714510532b43f7cebb35bd"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f4dd97ce87714510532b43f7cebb35bd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_f4dd97ce87714510532b43f7cebb35bd"/>
+    <sys_hub_action_input action="delete_multiple" query="model=64dd97ce87714510532b43f7cebb3593^sys_idNOT INa8dd97ce87714510532b43f7cebb3596"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=87e6b55c-417e-4875-bcc1-2b7330f3befa</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_snc_candidate_0_offer</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>offer</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Offer</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Generate Offer Letter">64dd97ce87714510532b43f7cebb3593</model>
+        <model_id>64dd97ce87714510532b43f7cebb3593</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_64dd97ce87714510532b43f7cebb3593</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_snc_candidate_0_offer">x_snc_candidate_0_offer</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:57</sys_created_on>
+        <sys_id>a8dd97ce87714510532b43f7cebb3596</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a8dd97ce87714510532b43f7cebb3596"/>
+    <sys_hub_action_output action="delete_multiple" query="model=64dd97ce87714510532b43f7cebb3593^sys_idNOT IN38ddd7ce87714510532b43f7cebb3504,78dd97ce87714510532b43f7cebb35f8,b4dd97ce87714510532b43f7cebb35f0"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=7acf15b3-79d8-4cd9-98d8-9d12c61eee93</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>success</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Success</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Generate Offer Letter">64dd97ce87714510532b43f7cebb3593</model>
+        <model_id>64dd97ce87714510532b43f7cebb3593</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_64dd97ce87714510532b43f7cebb3593</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>38ddd7ce87714510532b43f7cebb3504</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=38ddd7ce87714510532b43f7cebb3504"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=38ddd7ce87714510532b43f7cebb3504"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=8540cda3-ca40-4dbb-81f6-e3685435d65e,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Generate Offer Letter">64dd97ce87714510532b43f7cebb3593</model>
+        <model_id>64dd97ce87714510532b43f7cebb3593</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_64dd97ce87714510532b43f7cebb3593</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>78dd97ce87714510532b43f7cebb35f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=78dd97ce87714510532b43f7cebb35f8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=78dd97ce87714510532b43f7cebb35f8"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD38dd97ce3b7145108df7003236a690e1</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>ea5c6ac2873d0510532b43f7cebb359e</scope_name>
+        <serialized_content>{"FlowDesigner:FD38dd97ce3b7145108df7003236a690e1":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD38dd97ce3b7145108df7003236a690e1.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d851b1ca-8677-4dc9-aab4-dc982c6645ec\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD38dd97ce3b7145108df7003236a690e1\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f8dd97ce87714510532b43f7cebb35e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD38dd97ce3b7145108df7003236a690e1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name>sys_complex_object_f8dd97ce87714510532b43f7cebb35e1</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD38dd97ce3b7145108df7003236a690e1,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=d851b1ca-8677-4dc9-aab4-dc982c6645ec</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Generate Offer Letter">64dd97ce87714510532b43f7cebb3593</model>
+        <model_id>64dd97ce87714510532b43f7cebb3593</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_64dd97ce87714510532b43f7cebb3593</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>b4dd97ce87714510532b43f7cebb35f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b4dd97ce87714510532b43f7cebb35f0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b4dd97ce87714510532b43f7cebb35f0"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=64dd97ce87714510532b43f7cebb3593"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=64dd97ce87714510532b43f7cebb3593^sys_idNOT INbcddd7ce87714510532b43f7cebb3510"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Generate Offer Letter">64dd97ce87714510532b43f7cebb3593</action_type_id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>bcddd7ce87714510532b43f7cebb3510</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=bcddd7ce87714510532b43f7cebb3510"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_64dd97ce87714510532b43f7cebb3593^sys_idNOT INb8dd97ce87714510532b43f7cebb35ba"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>offer</element>
+        <help/>
+        <hint/>
+        <label>Offer</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_64dd97ce87714510532b43f7cebb3593</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:57</sys_created_on>
+        <sys_id>b8dd97ce87714510532b43f7cebb35ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_64dd97ce87714510532b43f7cebb3593"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_64dd97ce87714510532b43f7cebb3593^sys_idNOT IN70ddd7ce87714510532b43f7cebb3503,b0dd97ce87714510532b43f7cebb35f7,f4ddd7ce87714510532b43f7cebb350a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_64dd97ce87714510532b43f7cebb3593</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>70ddd7ce87714510532b43f7cebb3503</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_64dd97ce87714510532b43f7cebb3593</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>b0dd97ce87714510532b43f7cebb35f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>success</element>
+        <help/>
+        <hint/>
+        <label>Success</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_64dd97ce87714510532b43f7cebb3593</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 16:49:58</sys_created_on>
+        <sys_id>f4ddd7ce87714510532b43f7cebb350a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 16:49:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_64dd97ce87714510532b43f7cebb3593"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>3b8cdb0e87714510532b43f7cebb35c8</sys_id>
+        <latest_snapshot>64dd97ce87714510532b43f7cebb3593</latest_snapshot>
+        <compiler_build>glide-rome-06-23-2021__patch4-hotfix1b-01-19-2022_02-08-2022_1831.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

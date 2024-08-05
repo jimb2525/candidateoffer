@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_panel>23a0764e1c3d0510aaf6389437afcc9d</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app/>
+        <path>candidate-offer-workspace</path>
+        <root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 13:32:44</sys_created_on>
+        <sys_id>efa0764e8f3d0510a75e684d54b4c19e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Candidate Offer Workspace</sys_name>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name>sys_ux_page_registry_efa0764e8f3d0510a75e684d54b4c19e</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 13:32:44</sys_updated_on>
+        <title>Candidate Offer Workspace</title>
+    </sys_ux_page_registry>
+</record_update>

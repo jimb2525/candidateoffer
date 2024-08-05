@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config/>
+        <screen display_value="List Default">27a0764ef03d0510fb15cafa8e1e189d</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 13:32:44</sys_created_on>
+        <sys_id>67a0764ef83d051015cbd0341258af9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_67a0764ef83d051015cbd0341258af9d</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 13:32:44</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

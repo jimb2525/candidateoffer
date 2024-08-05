@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_status_of_content">
+    <gsw_status_of_content action="INSERT_OR_UPDATE">
+        <best_practice_allowed_ever>0</best_practice_allowed_ever>
+        <checksum>qj35vZg4gt0BJIxDyfyRF0awlD4=</checksum>
+        <content display_value="Welcome to App Engine Studio Guided Setup​">411b157f0f602010310be3d1df767e7b</content>
+        <effective_weight>1</effective_weight>
+        <more_info_visited>false</more_info_visited>
+        <previous_status>0</previous_status>
+        <progress>0</progress>
+        <related_log_entry display_value="2022-04-19 11:34:03">63aeccd0878b8d90532b43f7cebb3569</related_log_entry>
+        <status>1</status>
+        <sys_class_name>gsw_status_of_content</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-03-09 21:39:36</sys_created_on>
+        <sys_id>f1ffad4f870ec190e80b40c5cebb354d</sys_id>
+        <sys_mod_count>47</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name>gsw_status_of_content_f1ffad4f870ec190e80b40c5cebb354d</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-19 18:34:03</sys_updated_on>
+    </gsw_status_of_content>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Candidate Offer Workspace Config">23a0764e1c3d0510aaf6389437afcc9d</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon>paperclip-outline</icon>
+        <name>Attachment</name>
+        <optional_parameters/>
+        <order>1</order>
+        <parent_macroponent display_value="Record">558adc930f0210107d20409dc4767e84</parent_macroponent>
+        <parent_macroponent_composition_element_id>contextual_sidebar</parent_macroponent_composition_element_id>
+        <route_type>attachmenttab</route_type>
+        <screen_type display_value="Attachment">747828db0f0210107d20409dc4767eb5</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 13:32:44</sys_created_on>
+        <sys_id>aba0764e503d05102a60798c5fc6fd9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attachment</sys_name>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name>sys_ux_app_route_aba0764e503d05102a60798c5fc6fd9d</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 13:32:44</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=aba0764e503d05102a60798c5fc6fd9d"/>
+</record_update>

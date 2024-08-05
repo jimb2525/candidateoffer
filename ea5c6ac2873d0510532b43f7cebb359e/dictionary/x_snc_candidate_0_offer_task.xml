@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9c499b8687714510532b43f7cebb35c2" extends="task" label="Offer Task" max_length="40" name="x_snc_candidate_0_offer_task" text_index="true" type="collection"/>
+</database>

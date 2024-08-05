@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>generate_offer_letter_subflow</internal_name>
+        <label_cache>[{"name":"subflow.offer","label":"Input➛Offer","reference":"x_snc_candidate_0_offer","reference_display":"Offer","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"72931e6b-5204-4aca-9274-e7ad2be70493"}},{"name":"2483e3dc-b3ec-4674-b197-697426d1f8d7.success","label":"1➛Success","reference_display":"Success","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"7acf15b3-79d8-4cd9-98d8-9d12c61eee93"}},{"name":"2483e3dc-b3ec-4674-b197-697426d1f8d7.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"8540cda3-ca40-4dbb-81f6-e3685435d65e"}},{"name":"2483e3dc-b3ec-4674-b197-697426d1f8d7.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD38dd97ce3b7145108df7003236a690e1","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d851b1ca-8677-4dc9-aab4-dc982c6645ec"}}]</label_cache>
+        <master_snapshot>3fbaef0a87f14510532b43f7cebb35cc</master_snapshot>
+        <name>Generate Offer Letter Subflow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 17:45:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8a8ae30a87f14510532b43f7cebb3505</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Generate Offer Letter Subflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name>sys_hub_flow_8a8ae30a87f14510532b43f7cebb3505</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 17:46:27</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=8a8ae30a87f14510532b43f7cebb3505"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8a8ae30a87f14510532b43f7cebb3505"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=8a8ae30a87f14510532b43f7cebb3505"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=8a8ae30a87f14510532b43f7cebb3505"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8a8ae30a87f14510532b43f7cebb3505^sys_idNOT INca8ae30a87f14510532b43f7cebb3508"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8a8ae30a87f14510532b43f7cebb3505</id>
+        <name>Generate Offer Letter Subflow</name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 17:45:29</sys_created_on>
+        <sys_id>ca8ae30a87f14510532b43f7cebb3508</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 17:45:29</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ca8ae30a87f14510532b43f7cebb3508"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=8a8ae30a87f14510532b43f7cebb3505^sys_idNOT INaebaaf0a87f14510532b43f7cebb351f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=72931e6b-5204-4aca-9274-e7ad2be70493</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_snc_candidate_0_offer</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>offer</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Offer</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Generate Offer Letter Subflow">8a8ae30a87f14510532b43f7cebb3505</model>
+        <model_id>8a8ae30a87f14510532b43f7cebb3505</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_8a8ae30a87f14510532b43f7cebb3505</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_snc_candidate_0_offer">x_snc_candidate_0_offer</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 17:46:20</sys_created_on>
+        <sys_id>aebaaf0a87f14510532b43f7cebb351f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 17:46:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=8a8ae30a87f14510532b43f7cebb3505"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8a8ae30a87f14510532b43f7cebb3505"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=8a8ae30a87f14510532b43f7cebb3505^sys_idNOT IN36baaf0a87f14510532b43f7cebb3560"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Generate Offer Letter">64dd97ce87714510532b43f7cebb3593</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Generate Offer Letter Subflow">8a8ae30a87f14510532b43f7cebb3505</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 17:46:21</sys_created_on>
+        <sys_id>36baaf0a87f14510532b43f7cebb3560</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 17:46:27</sys_updated_on>
+        <ui_id>2483e3dc-b3ec-4674-b197-697426d1f8d7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=36baaf0a87f14510532b43f7cebb3560"/>
+    <sys_element_mapping action="delete_multiple" query="id=36baaf0a87f14510532b43f7cebb3560"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>offer</field>
+        <id>36baaf0a87f14510532b43f7cebb3560</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 17:46:21</sys_created_on>
+        <sys_id>f2baaf0a87f14510532b43f7cebb3562</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 17:46:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_64dd97ce87714510532b43f7cebb3593</table>
+        <value>{{subflow.offer}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=36baaf0a87f14510532b43f7cebb3560"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=36baaf0a87f14510532b43f7cebb3560"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=8a8ae30a87f14510532b43f7cebb3505"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=8a8ae30a87f14510532b43f7cebb3505"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8a8ae30a87f14510532b43f7cebb3505"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=8a8ae30a87f14510532b43f7cebb3505"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_8a8ae30a87f14510532b43f7cebb3505^sys_idNOT IN66baaf0a87f14510532b43f7cebb352b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>offer</element>
+        <help/>
+        <hint/>
+        <label>Offer</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8a8ae30a87f14510532b43f7cebb3505</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 17:46:21</sys_created_on>
+        <sys_id>66baaf0a87f14510532b43f7cebb352b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 17:46:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8a8ae30a87f14510532b43f7cebb3505"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_8a8ae30a87f14510532b43f7cebb3505"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8a8ae30a87f14510532b43f7cebb3505"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>generate_offer_letter_subflow</internal_name>
+        <label_cache>[{"name":"subflow.offer","label":"Input➛Offer","reference":"x_snc_candidate_0_offer","reference_display":"Offer","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"72931e6b-5204-4aca-9274-e7ad2be70493"}},{"name":"2483e3dc-b3ec-4674-b197-697426d1f8d7.success","label":"1➛Success","reference_display":"Success","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"7acf15b3-79d8-4cd9-98d8-9d12c61eee93"}},{"name":"2483e3dc-b3ec-4674-b197-697426d1f8d7.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"8540cda3-ca40-4dbb-81f6-e3685435d65e"}},{"name":"2483e3dc-b3ec-4674-b197-697426d1f8d7.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD38dd97ce3b7145108df7003236a690e1","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d851b1ca-8677-4dc9-aab4-dc982c6645ec"}}]</label_cache>
+        <master>true</master>
+        <name>Generate Offer Letter Subflow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Generate Offer Letter Subflow">8a8ae30a87f14510532b43f7cebb3505</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 17:46:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3fbaef0a87f14510532b43f7cebb35cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 17:46:25</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=3fbaef0a87f14510532b43f7cebb35cc"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3fbaef0a87f14510532b43f7cebb35cc"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=3fbaef0a87f14510532b43f7cebb35cc"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=3fbaef0a87f14510532b43f7cebb35cc"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=3fbaef0a87f14510532b43f7cebb35cc^sys_idNOT IN77baef0a87f14510532b43f7cebb35ce"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>3fbaef0a87f14510532b43f7cebb35cc</id>
+        <name>Generate Offer Letter Subflow</name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 17:46:25</sys_created_on>
+        <sys_id>77baef0a87f14510532b43f7cebb35ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 17:46:25</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=77baef0a87f14510532b43f7cebb35ce"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=3fbaef0a87f14510532b43f7cebb35cc^sys_idNOT INfbbaef0a87f14510532b43f7cebb35cf"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=72931e6b-5204-4aca-9274-e7ad2be70493</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_snc_candidate_0_offer</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>offer</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Offer</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Generate Offer Letter Subflow">3fbaef0a87f14510532b43f7cebb35cc</model>
+        <model_id>3fbaef0a87f14510532b43f7cebb35cc</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_3fbaef0a87f14510532b43f7cebb35cc</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_snc_candidate_0_offer">x_snc_candidate_0_offer</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 17:46:25</sys_created_on>
+        <sys_id>fbbaef0a87f14510532b43f7cebb35cf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 17:46:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=3fbaef0a87f14510532b43f7cebb35cc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3fbaef0a87f14510532b43f7cebb35cc"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=3fbaef0a87f14510532b43f7cebb35cc^sys_idNOT IN7bba234a87f14510532b43f7cebb3556"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Generate Offer Letter">64dd97ce87714510532b43f7cebb3593</action_type>
+        <action_type_parent display_value="Generate Offer Letter">3b8cdb0e87714510532b43f7cebb35c8</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Generate Offer Letter Subflow">3fbaef0a87f14510532b43f7cebb35cc</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 17:46:26</sys_created_on>
+        <sys_id>7bba234a87f14510532b43f7cebb3556</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 17:46:26</sys_updated_on>
+        <ui_id>2483e3dc-b3ec-4674-b197-697426d1f8d7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7bba234a87f14510532b43f7cebb3556"/>
+    <sys_element_mapping action="delete_multiple" query="id=7bba234a87f14510532b43f7cebb3556"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>offer</field>
+        <id>7bba234a87f14510532b43f7cebb3556</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 17:46:26</sys_created_on>
+        <sys_id>b7ba234a87f14510532b43f7cebb3557</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 17:46:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_64dd97ce87714510532b43f7cebb3593</table>
+        <value>{{subflow.offer}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7bba234a87f14510532b43f7cebb3556"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7bba234a87f14510532b43f7cebb3556"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=3fbaef0a87f14510532b43f7cebb35cc"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=3fbaef0a87f14510532b43f7cebb35cc"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3fbaef0a87f14510532b43f7cebb35cc"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=3fbaef0a87f14510532b43f7cebb35cc"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_3fbaef0a87f14510532b43f7cebb35cc^sys_idNOT INb3ba234a87f14510532b43f7cebb3533"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>offer</element>
+        <help/>
+        <hint/>
+        <label>Offer</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3fbaef0a87f14510532b43f7cebb35cc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 17:46:25</sys_created_on>
+        <sys_id>b3ba234a87f14510532b43f7cebb3533</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 17:46:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3fbaef0a87f14510532b43f7cebb35cc"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_3fbaef0a87f14510532b43f7cebb35cc"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3fbaef0a87f14510532b43f7cebb35cc"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>8a8ae30a87f14510532b43f7cebb3505</sys_id>
+        <latest_snapshot>3fbaef0a87f14510532b43f7cebb35cc</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=8a8ae30a87f14510532b43f7cebb3505"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=8a8ae30a87f14510532b43f7cebb3505^sys_idNOT IN48ca234a87f14510532b43f7cebb35c0"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@13472c7</plan>
+        <plan_id display_value="Generate Offer Letter Subflow">8a8ae30a87f14510532b43f7cebb3505</plan_id>
+        <snapshot>3fbaef0a87f14510532b43f7cebb35cc</snapshot>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 17:46:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>48ca234a87f14510532b43f7cebb35c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 17:46:27</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

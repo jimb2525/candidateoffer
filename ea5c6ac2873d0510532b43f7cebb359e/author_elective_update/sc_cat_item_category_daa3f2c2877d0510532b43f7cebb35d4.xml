@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Generate Candidate Offer">b8f0328e873d0510532b43f7cebb3541</sc_cat_item>
+        <sc_category display_value="Offer">ba33f682877d0510532b43f7cebb3554</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 13:45:44</sys_created_on>
+        <sys_id>daa3f2c2877d0510532b43f7cebb35d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Offer.Generate Candidate Offer</sys_name>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_update_name>sc_cat_item_category_daa3f2c2877d0510532b43f7cebb35d4</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 13:45:44</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</application>
+        <file_path/>
+        <instance_id>e3dd915bdbeef0100ae3ac44d4961951</instance_id>
+        <instance_name>jbelote14demo</instance_name>
+        <name>sc_cat_item_category_daa3f2c2877d0510532b43f7cebb35d4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Generate Candidate Offer">b8f0328e873d0510532b43f7cebb3541</sc_cat_item><sc_category display_value="Offer">ba33f682877d0510532b43f7cebb3554</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2022-02-22 13:45:44</sys_created_on><sys_id>daa3f2c2877d0510532b43f7cebb35d4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Offer.Generate Candidate Offer</sys_name><sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package><sys_policy/><sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope><sys_update_name>sc_cat_item_category_daa3f2c2877d0510532b43f7cebb35d4</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2022-02-22 13:45:44</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>195893281</payload_hash>
+        <record_name>Offer.Generate Candidate Offer</record_name>
+        <reverted_from/>
+        <source>035caac2873d0510532b43f7cebb35e4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 13:45:45</sys_created_on>
+        <sys_id>96a3f2c2877d0510532b43f7cebb35f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f21ae4bb80000001</sys_recorded_at>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 13:45:45</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>daa3f2c2da7d05102afdd615e8eb0af8</update_guid>
+        <update_guid_history>daa3f2c2da7d05102afdd615e8eb0af8:195893281</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Offer.Generate Candidate Offer">4526b6c6877d0510532b43f7cebb3521</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-02-22 13:56:35</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>4293b0bfefd64b8c91907cab89483904</sys_id>
+        <sys_metadata>daa3f2c2877d0510532b43f7cebb35d4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Offer.Generate Candidate Offer</sys_name>
+        <sys_package display_value="Candidate Offer" source="x_snc_candidate_0">ea5c6ac2873d0510532b43f7cebb359e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Offer">ea5c6ac2873d0510532b43f7cebb359e</sys_scope>
+        <sys_scope_delete display_value="">1952e1280ba1495986cf4f8e5bcd9bf1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_daa3f2c2877d0510532b43f7cebb35d4</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_daa3f2c2877d0510532b43f7cebb35d4">96a3f2c2877d0510532b43f7cebb35f9</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-02-22 13:56:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
